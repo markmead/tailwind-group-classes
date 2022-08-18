@@ -1,10 +1,11 @@
 {
   "name": "tailwind-group-classes",
-  "version": "1.0.0",
-  "description": "Group Tailwind CSS modifiers like `focus`, `peer-checked`, `dark:hover` and more, without polluting your classes 🏘",
+  "version": "1.0.1",
+  "description": "Group Tailwind CSS modifiers like focus, peer-checked, dark:hover and more, without polluting your classes 🏘",
   "keywords": [
     "Tailwind",
-    "Tailwind CSS"
+    "Tailwind CSS",
+    "Tailwind CSS Plugin"
   ],
   "author": "Mark Mead",
   "license": "MIT",
