@@ -1,0 +1,1 @@
+function l(){[...document.querySelectorAll("[tw-group]")].forEach(r=>{[...r.attributes].filter(t=>t.name.includes("tw-group.")).forEach(t=>{let o=t.name.split(".").filter(e=>e!=="tw-group");t.value.split(" ").forEach(e=>{o.forEach(s=>r.classList.add(`${s}:${e}`))})})})}var p=l;export{p as default};

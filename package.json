@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-group-classes",
+  "version": "1.0.0",
+  "description": "...",
+  "keywords": [],
+  "author": "Mark Mead",
+  "license": "MIT",
+  "module": "dist/group.esm.js",
+  "unpkg": "dist/group.min.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.53"
+  }
+}
