@@ -1,8 +1,11 @@
 {
   "name": "tailwind-group-classes",
   "version": "1.0.0",
-  "description": "...",
-  "keywords": [],
+  "description": "Group Tailwind CSS modifiers like `focus`, `peer-checked`, `dark:hover` and more, without polluting your classes 🏘",
+  "keywords": [
+    "Tailwind",
+    "Tailwind CSS"
+  ],
   "author": "Mark Mead",
   "license": "MIT",
   "module": "dist/group.esm.js",

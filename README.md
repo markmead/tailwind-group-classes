@@ -1,6 +1,6 @@
-# HTML Components
+# Tailwind CSS Group Classes
 
-Write simple, reusable HTML components in the style of React and Vue 🚀
+Group Tailwind CSS modifiers like `focus`, `peer-checked`, `dark:hover` and more, without polluting your classes 🏘
 
 ### Using with a CDN
 
