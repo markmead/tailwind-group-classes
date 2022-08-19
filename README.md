@@ -59,8 +59,8 @@ Here's how that example looks but using this package.
   for="cool"
   class="border p-4"
   tw-group
-  tw-group.hover.peer-checked="bg-black text-white"
-  tw-group.peer-focus="ring ring-black"
+  tw-group.peer-checked="peer-checked:bg-black peer-checked:text-white"
+  tw-group.peer-focus="peer-focus:ring peer-focus:ring-black"
 >
   Are you cool?
 </label>
@@ -68,18 +68,9 @@ Here's how that example looks but using this package.
 
 Let's break down what is happening.
 
-First, we add the `tw-group` attribute to the element, this tells the JavaScript that it exists.
+First, we add the `tw-group` attribute to the element, this tells the JavaScript to find that element.
 
-After that we can add as many `tw-group.[modifiers]="..."` to the element as needed. You can add as many modifiers to `tw-group` as you need, which works great with `dark:` classes. Here's an example.
-
-```html
-<div
-  x-twcg.hover.focus.peer-checked.peer-focus="..."
-  x-twcg.dark:hover.dark:focus.dark:peer-checked.dark:peer-focus="..."
->
-  ...
-</div>
-```
+After that we can start adding `tw-group.[modifier]="..."` to the element. Sadly, you still need to add the modifier to the class, this is due to Tailwind CSS's purge.
 
 ### Stats
 

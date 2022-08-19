@@ -1,6 +1,6 @@
 {
   "name": "tailwind-group-classes",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "Group together Tailwind CSS modifiers like focus, peer-checked, dark:hover and more with HTML attributes 👩‍🚀",
   "keywords": [
     "Tailwind",
