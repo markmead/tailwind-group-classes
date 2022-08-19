@@ -1,13 +1,13 @@
 # Tailwind CSS Group Classes
 
-Group Tailwind CSS modifiers like `focus`, `peer-checked`, `dark:hover` and more, without polluting your classes 🏘
+Group together Tailwind CSS modifiers like `focus`, `peer-checked`, `dark:hover` and more with HTML attributes 👩‍🚀
 
 ### Using with a CDN
 
 ```html
 <script
   defer
-  src="https://unpkg.com/tailwind-group-classes@latest/dist/render.min.js"
+  src="https://unpkg.com/tailwind-group-classes@latest/dist/group.min.js"
 ></script>
 
 <script>
@@ -50,7 +50,7 @@ Here's the current way to build this.
 </label>
 ```
 
-The length of the class names is something that puts people off about Tailwind CSS (personally, I don't care).
+The length of the classes is something that puts people off Tailwind CSS. Personally, I think it's fine.
 
 Here's how that example looks but using this package.
 
@@ -66,13 +66,11 @@ Here's how that example looks but using this package.
 </label>
 ```
 
-Much cleaner. Let's break down what is happening.
+Let's break down what is happening.
 
-First, we need to add a `tw-group` attribute to the element, this tells the JavaScript that it exists.
+First, we add the `tw-group` attribute to the element, this tells the JavaScript that it exists.
 
-After that we can add as many `tw-group.[modifiers]="..."` to the element as needed.
-
-It's worth noting that you can add as many modifiers as you need to `tw-group` which makes it work great with `dark:` classes. Here's an example of that.
+After that we can add as many `tw-group.[modifiers]="..."` to the element as needed. You can add as many modifiers to `tw-group` as you need, which works great with `dark:` classes. Here's an example.
 
 ```html
 <div
